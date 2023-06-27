@@ -16,6 +16,7 @@ class Cat extends Animal {
   }
 }
 
+
 class HierarchialInheritance {
   public static void main(String args[]) {
     Cat A = new Cat();
