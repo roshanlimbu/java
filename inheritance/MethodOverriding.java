@@ -1,37 +1,36 @@
 class Employee {
-  public static int base = 10000;
+  public static int baseSalary = 10000;
 
   int salary() {
-    return base;
+    return baseSalary;
   }
 }
 
 class Manager extends Employee {
   int salary() {
-    return base + 20000;
+    return baseSalary + 50000;
   }
 }
 
 class Clerk extends Employee {
   int salary() {
-    return base + 10000;
+    return baseSalary + 10000;
   }
 }
-
-class Main2 {
+// main class
+class MethodOverriding {
    void printSalary(Employee e) {
     System.out.println(e.salary());
   }
 
   public static void main(String args[]) {
-    Main2 obj = new Main2();
+    // creating new obj for MethodOverriding class
+    MethodOverriding obj = new MethodOverriding();
     Employee obj1 = new Manager();
     System.out.print("Manager's salary: ");
-    // printSalary(obj1);
     obj.printSalary(obj1);
     Employee obj2 = new Clerk();
     System.out.print("Clerk's salary: ");
-    // printSalary(obj2);
     obj.printSalary(obj2);
   }
 }
