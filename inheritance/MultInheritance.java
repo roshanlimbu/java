@@ -11,7 +11,7 @@ class Dog extends Animal {
 }
 
 class BabyDog extends Dog {
-  void weep() {
+  void sleep() {
     System.out.println("sleeping");
   }
 }
@@ -19,7 +19,7 @@ class BabyDog extends Dog {
 class MultInheritance {
   public static void main(String args[]) {
     BabyDog A = new BabyDog();
-    A.weep();
+    A.sleep();
     A.bark();
     A.eat();
   }
