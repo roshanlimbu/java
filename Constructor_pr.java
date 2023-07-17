@@ -1,8 +1,8 @@
 public class Construnctor_pr {
-    public static void main(Stirng[]args){
+    public static void main(String[]args){
         Construnctor_pr obj= new Construnctor_pr();
     }
-    Construnctor_pr(){
-        System.out.Println("The constructor is called");
-    }
+  Construnctor_pr(){
+    System.out.println("Constructor");
+  }
 }
