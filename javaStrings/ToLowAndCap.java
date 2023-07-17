@@ -17,5 +17,8 @@ public class ToLowAndCap {
     String word7 = "HelloJava";
     String word8 = word7.replace('J', 'L');
     System.out.println(word8);
+
+    String word9 = "Roshan";
+    System.out.println(word9.isEmpty());
   } 
 }
