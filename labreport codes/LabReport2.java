@@ -19,8 +19,8 @@ public class LabReport2{
     System.out.println("Multiplication " + (num2 * num1 ));
     System.out.println("Divison " + (num1 / num2 ));
     System.out.println("Modulus " +(num1 % num2 ));
-    System.out.println("Increment "+(num1++));
-    System.out.println("Decrement " +(num2--));
+    System.out.println("Increment "+(++num1));
+    System.out.println("Decrement " +(--num2));
   }
 }
 
