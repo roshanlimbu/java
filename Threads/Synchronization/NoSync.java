@@ -1,7 +1,7 @@
 class Table {
   // Method to print the multiplication table of a given number
   void printTable(int num) {
-    for (int i = 1; i <= 10; i++) {
+    for (int i = 1; i <= 5; i++) {
       System.out.println(num + " x " + i + " = " + (num * i));
       try {
         Thread.sleep(500); // Introducing a delay to simulate some work
