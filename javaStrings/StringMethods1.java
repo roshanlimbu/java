@@ -7,7 +7,7 @@ public class StringMethods1{
     System.out.println(text.substring(3,6)); // returns 'loJ' 
     String s1 = "Hello";
     String s2 = "Java";
-    String output = s1.concat(s2); //returns HelloJava
+    int output = s1.compareTo(s2); //returns HelloJava
     System.out.println(output);
 
   }

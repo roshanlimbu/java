@@ -1,7 +1,7 @@
 public class CompareString {
   public static void main(String [] args) {
-    String s1 = "abc";
-    String s2 = "def";
+    String s1 = "e";
+    String s2 = "a";
     int out = s1.compareTo(s2);
     System.out.println(out);
 
