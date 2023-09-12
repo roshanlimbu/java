@@ -20,4 +20,3 @@ public class ConstructorOverloading {
         ConstructorOverloading calc2 = new ConstructorOverloading(4, 5, 6);
     }
 }
-
