@@ -1,23 +1,18 @@
-// wap to find the factorial using recursion
-public class LabReport8{
+// wap to find the factorial of a number using recursion
+public class LabReport8 {
 
-  public void factorial(int n , int divisor){
-    if(n==0|| n==1){
-      System.out.println(1);
-    } else {
-      if(divisor<=n){
-        if(n % divisor == 0){
-          System.out.println(divisor);
+    // Recursive function to calculate factorial
+    public static long factorial(int n) {
+        if (n == 0 || n == 1) {
+            return 1; 
+        } else {
+            return n * factorial(n - 1);
         }
-        factorial(n, divisor+1);
-      }
     }
-  }
-  public static void main(String[] args){
-    int num =10;
-    LabReport8 fact = new LabReport8();
-    fact.factorial(num, 1);
 
-
-  }
+    public static void main(String[] args) {
+        int num = 10;
+        long result = factorial(num);
+        System.out.println("Factorial of " + num + " is " + result);
+    }
 }
