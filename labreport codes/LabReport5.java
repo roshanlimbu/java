@@ -27,7 +27,7 @@ class Cat extends Animal {
 
 public class LabReport5 {
     public static void main(String[] args) {
-        Animal animal1 = new Dog();
+        Animal animal1 = new Dog(); // Using `Animal` reference type here to demonstrate polymorphism 
         Animal animal2 = new Cat();
 
         animal1.makeSound(); // Output: "Dog barks"

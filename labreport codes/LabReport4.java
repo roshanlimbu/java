@@ -1,6 +1,5 @@
-
 // program to demonstrate MethodOverloading
-public class MethodOverloading{
+public class LabReport4{
   static void adder(int x, int y){
     System.out.println(x+y);
   }
