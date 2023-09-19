@@ -15,7 +15,7 @@ public class LabReport15 {
 
   public static int divideNumbers(int[] numbers, int divisor) {
     if (divisor == 0) {
-      throw new ArithmeticException("Division by zero is not allowed.");
+      throw new ArithmeticException("Division by zero is not possible.");
     }
 
     return numbers[0] / divisor;
