@@ -1,0 +1,23 @@
+1. Java basic
+2. Java methods
+3. Method Overloading
+4. Method Overriding
+5. Java Constructors
+6. Constructor Overloading
+7. Java variables (local, instance, static)
+8. java `this` keyword
+9. use of this keyword with Constructor & as method parameter
+10. Java Abstraction and Encapsulation
+11. Java polymorphism
+12. Recusrion
+13. Inheritance in Java (single , Multilevel, Hierarchial)
+14. Super keyword in Java
+15. Runtime polymorphism
+16. Use of Abstract class and method
+17. Java Interface
+18. Java final class
+19. Exceptions, errors and user-defined exceptions 
+20. Threads(creation of thread using extending thread and implementing from RUNNABLE)
+21. Thread Synchronization
+22. Deadlock in java & solution
+23. I/O stream examples
