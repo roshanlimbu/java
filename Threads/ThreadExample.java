@@ -3,6 +3,7 @@ class ThreadExample extends Thread{
   public void run(){
     System.out.println("Inside run method.");
   }
+
   public static void main(String[]args){
     ThreadExample t1 = new ThreadExample();
     ThreadExample t2 = new ThreadExample();
